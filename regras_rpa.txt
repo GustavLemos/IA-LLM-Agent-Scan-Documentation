@@ -1,0 +1,12 @@
+Regras de Boas Práticas para Desenvolvimento de RPA:
+
+1. Nomenclatura Clara: Variáveis, atividades e workflows devem ter nomes descritivos e significativos.
+2. Tratamento de Erros: Implementar tratamento robusto de erros com blocos Try-Catch e logs detalhados.
+3. Modularização: Dividir o processo em pequenos workflows reutilizáveis.
+4. Uso de Credenciais Seguras: Armazenar credenciais em cofres seguros (ex: Orchestrator, Azure Key Vault).
+5. Logging Detalhado: Registrar eventos importantes com timestamps e mensagens informativas.
+6. Configurações Externas: Utilizar arquivos de configuração para parâmetros que possam mudar (ex: URLs, caminhos de arquivos).
+7. Documentação Completa: Manter documentação atualizada do processo, incluindo diagramas de fluxo e descrição das atividades.
+8. Versionamento de Código: Utilizar um sistema de controle de versão (ex: Git).
+9. Testes Unitários: Implementar testes unitários para os componentes reutilizáveis.
+10. Reutilização de Componentes: Priorizar a reutilização de componentes existentes.
