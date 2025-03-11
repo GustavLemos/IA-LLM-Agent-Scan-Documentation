@@ -1,0 +1,15 @@
+Robo: Processamento de Dados
+
+Descricao: Faz coisas com dados.
+
+Atividades:
+1. Ler arquivo.
+2. Processar.
+3. Salvar.
+
+Variaveis:
+- x
+- y
+- z
+
+Observacoes: Nenhuma documentacao adicional. Credenciais em hardcode. Sem tratamento de erros. Sem versionamento.

@@ -1,0 +1,16 @@
+Nome do Robô: Coleta de Dados Web
+
+Descrição: Coleta dados de diferentes sites web.
+
+Atividades:
+1. Ler URLs de um arquivo de configuração.
+2. Acessar cada URL.
+3. Extrair dados.
+4. Salvar dados em um banco de dados.
+
+Variáveis:
+- url_atual (string)
+- dados_extraidos (list)
+- status_coleta (string)
+
+Observações: Os URLs dos sites a serem coletados são definidos em um arquivo de configuração externo (urls.json). A rotina de extração de dados é um componente reutilizável. As credenciais são gerenciadas pelo Orchestrator. Logs são gerados em um arquivo.

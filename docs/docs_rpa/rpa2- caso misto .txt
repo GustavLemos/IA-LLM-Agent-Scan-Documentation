@@ -1,0 +1,16 @@
+Nome do Robô: Automação de Pedidos
+
+Descrição: Automatiza o processo de recebimento e processamento de pedidos.
+
+Atividades:
+1. Receber pedido.
+2. Validar dados.
+3. Atualizar estoque.
+4. Enviar confirmacao.
+
+Variaveis:
+- pedido_id
+- data_pedido
+- itens
+
+Tratamento de Erros: Tratamento básico com bloco Try-Catch, mas sem logs detalhados. Credenciais armazenadas em um arquivo de texto criptografado na mesma pasta do robô. Processo dividido em alguns workflows, mas não de forma otimizada. Documentação com descrição das atividades, mas sem diagrama de fluxo.

@@ -1,0 +1,17 @@
+Nome do Robô: Gerenciamento de Clientes
+
+Descrição: Automatiza o processo de criação e atualização de clientes no sistema CRM.
+
+Atividades:
+1. Ler dados do cliente de um arquivo CSV.
+2. Validar dados do cliente.
+3. Criar ou atualizar cliente no CRM.
+4. Registrar log da operação.
+
+Variáveis:
+- cliente_id (string)
+- nome_cliente (string)
+- endereco_cliente (string)
+- status_operacao (booleano)
+
+Tratamento de Erros: Implementado com blocos Try-Catch e logs detalhados com timestamp. Credenciais armazenadas no Azure Key Vault. Processo modularizado em workflows reutilizáveis. Documentação completa com diagrama de fluxo e descrição detalhada das atividades. Versionamento com Git. Testes unitários implementados.
